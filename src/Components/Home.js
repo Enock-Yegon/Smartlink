@@ -38,9 +38,9 @@ const Home = () => {
           <div className="max-w-4xl mx-auto px-4">
             <div className="text-center">
               <blockquote className="italic text-lg">
-                "Khan Lab School has transformed my learning experience!"
+                "Smartlink Academy has transformed my learning experience!"
               </blockquote>
-              <p className="font-bold mt-4">- Student Name</p>
+              <p className="font-bold mt-4">- Gabriel Kipkorir Bett</p>
             </div>
           </div>
         </section>
@@ -49,9 +49,6 @@ const Home = () => {
         <section className="bg-yellow-300 text-center py-10">
           <h2 className="text-2xl font-bold mb-4">Join Us Today!</h2>
           <p>Be a part of our innovative learning community.</p>
-          <a href="/signup" className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-500 transition">
-            Sign Up
-          </a>
         </section>
   
         {/* Footer Section */}

@@ -5,6 +5,8 @@ import About from './Components/About';
 import Layout from './Components/Layout/Layout';
 import Navbar from './Components/Layout/Navbar';
 import Contact from './Components/Contact';
+import Login from './Components/Login';
+import Register from './Components/Register';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} /> 
           <Route path="contact" element={<Contact />} />
+          <Route path="login" element={<Login />} />
+          <Route path="register" element={<Register />} />
         </Route>
       </Routes>
     </BrowserRouter>
