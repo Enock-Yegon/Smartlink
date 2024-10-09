@@ -41,3 +41,9 @@ body {
   margin: 0; /* Remove default body margin */
   padding-top: 64px; /* Adjust based on your navbar height */
 }
+/* Add this to your global styles (App.css or relevant CSS file) */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure the body takes full height */
+}

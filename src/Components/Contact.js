@@ -5,8 +5,8 @@ import { faFacebook, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-
 
 const Contact = () => {
   return (
-    <div className="container mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
+    <div className="container mx-auto p-16 mt-28">
+      <h1 className="text-3xl font-bold mb-4 text-center">Contact Us</h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Contact Form  */}

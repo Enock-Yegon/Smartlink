@@ -14,3 +14,8 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.some-class {
+  background-image: url('./Assets/SmartlinkLogo.jpg'); /* Correct path */
+}
+

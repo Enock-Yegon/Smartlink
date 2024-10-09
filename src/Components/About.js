@@ -13,8 +13,8 @@ const About = () => {
   ];
 
   return (
-    <div className="container mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-4">About Us</h1>
+    <div className="container mx-auto p-16 mt-28">
+      <h1 className="text-3xl font-bold mb-4 text-center">About Us</h1>
 
       {/* Mission Statement */}
       <section className="mb-6">
@@ -28,7 +28,7 @@ const About = () => {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold">Company History</h2>
         <p className="mt-2">
-          Founded in 2005, our school has grown from a small pre-school to a leading primary and junior secondary school.
+          Founded in 2005, our school has grown from a small pre-school to a leading primary and junior secondary schooln.
         </p>
       </section>
 
